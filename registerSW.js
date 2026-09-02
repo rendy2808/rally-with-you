@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/rally-with-you/sw.js', { scope: '/rally-with-you/' })})}
